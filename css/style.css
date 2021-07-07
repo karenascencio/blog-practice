@@ -10,6 +10,11 @@ h2 {
   color: pink;
 }
 
+.article-button {
+  background-color: pink;
+  color: white;
+}
+
 footer {
   background-color: lightgray;
   color: #4f5052;
