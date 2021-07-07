@@ -1,6 +1,10 @@
 {
     "version": 3,
+<<<<<<< HEAD
     "mappings": "AAAA,AAAA,MAAM,CAAA;EACF,gBAAgB,EAAE,OAAkB;EACpC,KAAK,EAAE,IAAI;CACd;;AAED,AAAA,iBAAiB,CAAA;EACb,cAAc,EAAE,GAAG;EACnB,eAAe,EAAE,aAAa;CACjC",
+=======
+    "mappings": "AAAA,AAAA,eAAe,CAAA;EACX,KAAK,EAAE,KAAK;CAIf;;AALD,AAEI,eAFW,CAEX,IAAI,CAAA;EACA,SAAS,EAAE,MAAM;CACpB",
+>>>>>>> 24580b172dd9ca529f3aae5f8f734e5379bb8434
     "sources": [
         "style.scss"
     ],
