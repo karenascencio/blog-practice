@@ -1,17 +1,26 @@
-<<<<<<< HEAD
-footer{
-    background-color: rgb(209, 203, 204);
-    color: gray;
-}
-
-.custom-container{
-    flex-direction: row;
-    justify-content: space-between;
-=======
 .main-container{
     width: 100vw;
     .row{
         max-width: 1200px;
     }
->>>>>>> 24580b172dd9ca529f3aae5f8f734e5379bb8434
 }
+
+// footer 
+footer{
+    background-color: lightgray;
+    color: rgb(79, 80, 82);
+    
+    .custom-container{
+        display: flex;
+        justify-content: space-between;
+        .title{
+            display: flex;
+            align-items: center;
+            color: rgb(79, 80, 82);
+        }
+        .f-content{
+            width: 150px;
+        }
+    }
+}
+
