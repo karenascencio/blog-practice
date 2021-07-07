@@ -10,6 +10,10 @@
   max-width: 1200px;
 }
 
+h2 {
+  color: pink;
+}
+
 footer {
   background-color: lightgray;
   color: #4f5052;
