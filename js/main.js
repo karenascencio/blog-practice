@@ -11,7 +11,18 @@
 */
 
 
-let articleButtton = document.getElementById("article-button")
+
 let showMoreArticlesButton = document.getElementsByClassName("more-articles")
 const endpoint = "https://apikoder-b2ce0-default-rtdb.firebaseio.com/********/.json"
 let postObject = {}
+let postingButton = document.getElementById("posting-button")
+
+
+postingButton.addEventListener( "click", evento =>{
+    let articleTitle = document.getElementById("article-title").value 
+    let articleBody = document.getElementById("article-body").value
+    let articleImage = document.getElementById("article-image").value
+    console.log(articleTitle)
+    console.log(articleBody)
+    console.log(articleImage)
+}) 
